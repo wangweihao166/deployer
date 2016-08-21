@@ -49,7 +49,7 @@ const ServerDialog = (props) => {
       <FormGroup>
         <ControlLabel>
           {strings.path}&nbsp;
-          <OverlayTrigger placement="right" overlay={<Tooltip>{strings.example}</Tooltip>}>
+          <OverlayTrigger placement="right" overlay={<Tooltip id="serverPath">{strings.example}</Tooltip>}>
             <Icon fa="question-circle" />
           </OverlayTrigger>
         </ControlLabel>
