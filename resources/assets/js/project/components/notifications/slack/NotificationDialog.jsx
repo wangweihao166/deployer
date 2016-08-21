@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 
 import EditorDialog from '../../../../dialogs/EditorDialog';
 
-const SlackDialog = (props) => {
+const NotificationDialog = (props) => {
   const {
     fields,
     ...others,
@@ -11,7 +11,9 @@ const SlackDialog = (props) => {
   const submitting = props.submitting;
 
   const strings = {
-
+    create: Lang.get('notifications.create'),
+    edit: Lang.get('notifications.edit'),
+    warning: Lang.get('notifications.warning'),
   };
 
   return (
@@ -21,9 +23,9 @@ const SlackDialog = (props) => {
   );
 };
 
-SlackDialog.propTypes = {
+NotificationDialog.propTypes = {
   fields: PropTypes.object.isRequired,
   submitting: PropTypes.bool.isRequired,
 };
 
-export default SlackDialog;
+export default NotificationDialog;

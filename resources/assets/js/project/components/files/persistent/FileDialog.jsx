@@ -11,11 +11,13 @@ const FileDialog = (props) => {
   const submitting = props.submitting;
 
   const strings = {
-
+    create: Lang.get('projectFiles.create'),
+    edit: Lang.get('projectFiles.edit'),
+    warning: Lang.get('projectFiles.warning'),
   };
 
   return (
-    <EditorDialog id="sharefile" fa="fa-folder" fields={fields} translations={strings} {...others}>
+    <EditorDialog id="sharefile" fa="folder" fields={fields} translations={strings} {...others}>
       Persistent file dialog - {submitting}
     </EditorDialog>
   );

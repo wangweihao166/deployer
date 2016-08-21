@@ -3,7 +3,7 @@ import React, { PropTypes } from 'react';
 import NotificationList from './slack/NotificationList';
 import EmailList from './emails/EmailList';
 import Loading from '../../../app/components/Loading';
-import SlackDialog from '../../containers/dialogs/SlackDialog';
+import NotificationDialog from '../../containers/dialogs/NotificationDialog';
 import EmailDialog from '../../containers/dialogs/EmailDialog';
 
 const NotificationTab = (props) => {
@@ -26,7 +26,7 @@ const NotificationTab = (props) => {
       <NotificationList notifications={notifications} onAdd={onNotificationAdd} onEdit={onNotificationEdit} />
       <EmailList emails={emails} onAdd={onEmailAdd} onEdit={onEmailEdit} />
 
-      <SlackDialog />
+      <NotificationDialog />
       <EmailDialog />
     </div>
   );

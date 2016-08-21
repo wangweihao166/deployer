@@ -11,7 +11,9 @@ const HeartBeatDialog = (props) => {
   const submitting = props.submitting;
 
   const strings = {
-
+    create: Lang.get('heartbeats.create'),
+    edit: Lang.get('heartbeats.edit'),
+    warning: Lang.get('heartbeats.warning'),
   };
 
   return (

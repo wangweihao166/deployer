@@ -11,7 +11,9 @@ const LinkDialog = (props) => {
   const submitting = props.submitting;
 
   const strings = {
-
+    create: Lang.get('checkUrls.create'),
+    edit: Lang.get('checkUrls.edit'),
+    warning: Lang.get('checkUrls.warning'),
   };
 
   return (

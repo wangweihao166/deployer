@@ -11,7 +11,9 @@ const FileDialog = (props) => {
   const submitting = props.submitting;
 
   const strings = {
-
+    create: Lang.get('sharedFiles.create'),
+    edit: Lang.get('sharedFiles.edit'),
+    warning: Lang.get('sharedFiles.warning'),
   };
 
   return (

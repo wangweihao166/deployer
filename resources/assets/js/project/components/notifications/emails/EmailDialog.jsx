@@ -11,7 +11,9 @@ const EmailDialog = (props) => {
   const submitting = props.submitting;
 
   const strings = {
-
+    create: Lang.get('notifyEmails.create'),
+    edit: Lang.get('notifyEmails.edit'),
+    warning: Lang.get('notifyEmails.warning'),
   };
 
   return (
