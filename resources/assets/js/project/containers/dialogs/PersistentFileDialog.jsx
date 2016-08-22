@@ -4,5 +4,5 @@ import editorDialog from '../../../dialogs/editor';
 
 export default editorDialog({
   dialog: PERSISTENT_DIALOG,
-  fields: ['id', 'project_id'],
+  fields: ['id', 'project_id', 'name', 'file'],
 })(FileDialog);

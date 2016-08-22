@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react';
+import { FormGroup, FormControl, ControlLabel } from 'react-bootstrap';
 
 import EditorDialog from '../../../../dialogs/EditorDialog';
 

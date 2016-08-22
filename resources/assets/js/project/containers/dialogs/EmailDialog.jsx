@@ -4,5 +4,5 @@ import editorDialog from '../../../dialogs/editor';
 
 export default editorDialog({
   dialog: EMAIL_DIALOG,
-  fields: ['id', 'project_id'],
+  fields: ['id', 'project_id', 'name', 'address'],
 })(EmailDialog);
